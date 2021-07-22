@@ -7,13 +7,14 @@
 }
 
 .container {
-  background-image: linear-gradient(#f6fafd #ffffff);
+  /* background-image: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%); */
   display: grid;
   grid-template-columns: 1fr 1fr 2fr 4fr 4fr 2fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
     ". header header ."
     ". main main ."
+    ". testimonial testimonial ."
     ". footer footer .";
 }
 
@@ -37,11 +38,20 @@
 }
 
 .item-3 {
+  grid-area: testimonial;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  background-color: purple;
+}
+
+.item-4 {
   grid-area: footer;
   grid-column-start: 1;
   grid-column-end: 9;
-  grid-row-start: 7;
-  grid-row-end: 8;
+  grid-row-start: 9;
+  grid-row-end: 10;
   background-color: purple;
 }
 
