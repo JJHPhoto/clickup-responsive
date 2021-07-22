@@ -7,6 +7,7 @@ Mini-project for ClickUp job applicaiton. I need to make a responsive version of
 - Whiteboard & grab graphics/colors.
 - Create Repo & initial files
 - Start testing grid
+- CSS the colors of navbar as well as working on collapsable menu
 
 ## Stack
 

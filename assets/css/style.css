@@ -1,10 +1,33 @@
+a {
+  text-decoration: none;
+  color: #4b5d68;
+}
+
+.container {
+  background-image: linear-gradient(#f6fafd #ffffff);
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 4fr 4fr 2fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". header header ."
+    ". main main ."
+    ". footer footer .";
+}
+
+/* come back to this */
+/* .button {
+  box-shadow: 0px 5px 5px;
+  border-radius: 50px;
+} */
+
 .item-1 {
   grid-area: header;
   grid-column-start: 2;
   grid-column-end: 7;
   grid-row-start: 2;
   grid-row-end: 4;
-  background-color: pink;
+  /* background-color: pink; */
+  /* figure out this start/end stuff */
 }
 
 .item-2 {
@@ -25,13 +48,16 @@
   background-color: purple;
 }
 
-.container {
-  background-image: linear-gradient(#f6fafd #ffffff);
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr 4fr 4fr 2fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    ". header header ."
-    ". main main ."
-    ". footer footer .";
+#requestDemo {
+  background-color: #ffffff;
+  box-shadow: 0px 5px 5px rbg(75, 93, 104, 0.1);
+  border-radius: 50px;
+  width: 30%;
+  /* need to increase navbar height */
+  /* height: 100%; */
+  /* justify-self: end; */
+}
+
+span {
+  content: "\2192";
 }

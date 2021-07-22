@@ -11,9 +11,32 @@
   <body>
     <div class="container">
       <div class="item-1">
-        <div class="navbar">
-          <h1>navbar & logo</h1>
-        </div>
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">Joshua J Haller</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarButtons"
+            aria-controls="navbarButtons"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarButtons">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-link-active" href="#about">About</a>
+              <a class="nav-link-active" href="#footer">Help</a>
+              <a class="nav-link-active" href="#features">Features</a>
+              <a class="nav-link-active" href="#footer">Signup</a>
+              <!-- <a class="nav-link-active" href="#footer">Request a Demo</a> -->
+              <button id="requestDemo">
+                Request Demo <span>&#8594;</span>
+              </button>
+            </div>
+          </div>
+        </nav>
         <div class="headline">
           <h2>Save your data storage here.</h2>
           <p>
@@ -25,7 +48,8 @@
         </div>
       </div>
       <div class="item-2">
-        <div class="about">
+        <div class="about" id="about">
+          <!-- need better naming conventions here -->
           <h1>We are a high-level data storage bank</h1>
           <p>
             The place to store various data that you can access at any time
@@ -35,7 +59,7 @@
             registered in this Data Warehouse.
           </p>
         </div>
-        <div class="features">
+        <div class="features" id="features">
           <!-- Maybe put another div here for separate from cards  -->
           <h1>Features</h1>
           <p>
@@ -102,7 +126,7 @@
         </div>
       </div>
       <div class="item-3">
-        <div class="footer-title">
+        <div class="footer-title" id="footer">
           <h1>Try for free</h1>
           <p>Get limited 1 week free try our features!</p>
         </div>
