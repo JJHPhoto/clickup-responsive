@@ -7,29 +7,33 @@
 }
 
 .container {
-  /* background-image: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%); */
+  background-image: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
   display: grid;
   grid-template-columns: 1fr 1fr 2fr 4fr 4fr 2fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-    ". header header ."
-    ". main main ."
-    ". testimonial testimonial ."
+    ". navbar navbar ."
+    ". promotion promotion ."
+    ". about about ."
+    ". features features ."
+    ". testimonials testimonials ."
     ". footer footer .";
 }
 
 .item-1 {
-  grid-area: header;
+  grid-area: navbar;
   grid-column-start: 2;
   grid-column-end: 7;
   grid-row-start: 2;
   grid-row-end: 4;
-  /* background-color: pink; */
+  margin-top: 2rem;
+  /* align-self: center; */
+  /* place-self: center stretch; */
   /* figure out this start/end stuff */
 }
 
 .item-2 {
-  grid-area: main;
+  grid-area: promotion;
   grid-column-start: 2;
   grid-column-end: 7;
   grid-row-start: 5;
@@ -38,7 +42,7 @@
 }
 
 .item-3 {
-  grid-area: testimonial;
+  grid-area: about;
   grid-column-start: 2;
   grid-column-end: 7;
   grid-row-start: 7;
@@ -47,22 +51,39 @@
 }
 
 .item-4 {
+  grid-area: features;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 9;
+  grid-row-end: 10;
+  background-color: green;
+}
+
+.item-5 {
+  grid-area: testimonials;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 11;
+  grid-row-end: 12;
+  background-color: red;
+}
+
+.item-6 {
   grid-area: footer;
   grid-column-start: 1;
   grid-column-end: 9;
-  grid-row-start: 9;
-  grid-row-end: 10;
-  background-color: purple;
+  grid-row-start: 13;
+  grid-row-end: 14;
+  background-color: blue;
 }
 
 #requestDemo {
   background-color: #ffffff;
   box-shadow: 0px 5px 5px rbg(75, 93, 104, 0.1);
   border-radius: 50px;
-  width: 30%;
+  width: 210px;
+  height: 60px;
   font-family: "Avenir", Helvetica, sans-serif;
-  /* need to increase navbar height */
-  /* height: 100%; */
   /* justify-self: end; */
 }
 
@@ -76,6 +97,7 @@ span {
   background-color: #f06388;
   border-radius: 20px;
   display: inline-block;
+  margin-left: 0.5rem;
 }
 
 .purpleDot {
@@ -142,6 +164,15 @@ span {
 /* .button {
   box-shadow: 0px 5px 5px;
   border-radius: 50px;
+} */
+
+/* .logo {
+  grid-area: logo;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: green;
 } */
 
 /* unused */
