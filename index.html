@@ -5,38 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive ClickUp Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <div class="container">
       <div class="item-1">
-        <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">Joshua J Haller</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarButtons"
-            aria-controls="navbarButtons"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarButtons">
-            <div class="navbar-nav ml-auto">
-              <a class="nav-link-active" href="#about">About</a>
-              <a class="nav-link-active" href="#footer">Help</a>
-              <a class="nav-link-active" href="#features">Features</a>
-              <a class="nav-link-active" href="#footer">Signup</a>
-              <!-- <a class="nav-link-active" href="#footer">Request a Demo</a> -->
-              <button id="requestDemo">
-                Request Demo <span>&#8594;</span>
-              </button>
-            </div>
-          </div>
-        </nav>
+        <div class="navbar" id="myNavbar">
+          <a href="#" class="active">Logo</a>
+          <a href="#about">About</a>
+          <a href="#footer">Help</a>
+          <a href="#features">Features</a>
+          <a href="#footer">Signup</a>
+          <a href="#footer">
+            <button id="requestDemo">Request Demo <span>&#8594;</span></button>
+          </a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
         <div class="headline">
           <h2>Save your data storage here.</h2>
           <p>
