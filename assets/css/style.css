@@ -12,7 +12,7 @@
   grid-template-columns: 1fr 1fr 2fr 4fr 4fr 2fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-    ". navbar navbar ."
+    ". navbar navbar navbar navbar navbar navbar navbar button ."
     ". promotion promotion ."
     ". about about ."
     ". features features ."
@@ -23,7 +23,7 @@
 .item-1 {
   grid-area: navbar;
   grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column-end: 8;
   grid-row-start: 2;
   grid-row-end: 4;
   margin-top: 2rem;
@@ -32,10 +32,21 @@
   /* figure out this start/end stuff */
 }
 
+/* .testbutton {
+  grid-area: button;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  justify-self: end;
+  margin-top: 2rem;
+  background-color: aqua;
+} */
+
 .item-2 {
   grid-area: promotion;
   grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column-end: 8;
   grid-row-start: 5;
   grid-row-end: 6;
   background-color: plum;
@@ -44,7 +55,7 @@
 .item-3 {
   grid-area: about;
   grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column-end: 8;
   grid-row-start: 7;
   grid-row-end: 8;
   background-color: purple;
@@ -53,7 +64,7 @@
 .item-4 {
   grid-area: features;
   grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column-end: 8;
   grid-row-start: 9;
   grid-row-end: 10;
   background-color: green;
@@ -62,7 +73,7 @@
 .item-5 {
   grid-area: testimonials;
   grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column-end: 8;
   grid-row-start: 11;
   grid-row-end: 12;
   background-color: red;

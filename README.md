@@ -1,4 +1,4 @@
-# clickup-responsive
+# ClickUp Responsive
 
 Mini-project for ClickUp job applicaiton. I need to make a responsive version of a webpage they sent me a Figma demo of.
 
@@ -10,6 +10,8 @@ Mini-project for ClickUp job applicaiton. I need to make a responsive version of
 - CSS the colors of navbar as well as working on collapsable menu
 - realized i was using bootstrap classes; w3 schools for responsive navbar
 - found font family
+- responsive menu working
+- divided up grid areas
 
 ## Stack
 
