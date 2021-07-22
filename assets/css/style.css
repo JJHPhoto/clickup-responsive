@@ -60,6 +60,22 @@ span {
   content: "\2192";
 }
 
+.pinkDot {
+  height: 35px;
+  width: 20px;
+  background-color: #f06388;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.purpleDot {
+  height: 20px;
+  width: 20px;
+  background-color: #9c69e2;
+  border-radius: 20px;
+  display: inline-block;
+}
+
 .navbar {
   overflow: hidden;
   /* background-color: #333; */
