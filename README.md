@@ -12,6 +12,7 @@ Mini-project for ClickUp job applicaiton. I need to make a responsive version of
 - found font family
 - responsive menu working
 - divided up grid areas
+- class vs id
 
 ## Stack
 

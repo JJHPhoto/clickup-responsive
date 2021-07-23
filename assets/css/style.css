@@ -8,7 +8,8 @@
 
 body {
   margin: 0 15%;
-  background-image: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+  /* background: #e5e5e5; */
+  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
 }
 
 #promotion {
@@ -25,7 +26,7 @@ body {
 }
 
 #headlineImg {
-  width: 80%;
+  width: 50%;
 }
 
 #promoTitle {
@@ -33,18 +34,74 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#promoText {
+.mediumTitle {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.largeParagraph {
   font-size: 18px;
   font-family: "Avenir", Helvetica, sans-serif;
   color: #4b5d68;
 }
 
-.about {
+#about {
   margin: 10% auto;
+  position: relative;
 }
 
-.features {
+#subHeadline {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+}
+
+#subHeadlinImg {
+  width: 30%;
+}
+
+#features {
   margin: 10% auto;
+}
+/* children elements not being effected  */
+
+/* hiting this ID but centering not working */
+#featuresTitle {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#featuresCards {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.cardTitles {
+  font-size: 24px;
+  font-family: "Avenir", Helvetica, sans-serif;
+  color: #212353;
+}
+
+.cardParagraph {
+  font-size: 16px;
+  font-family: "Avenir", Helvetica, sans-serif;
+  color: #4b5d68;
+}
+
+.cardImg {
+  width: 20%;
+}
+
+.cardButton {
+  font-size: 16px;
+  font-family: "Avenir", Helvetica, sans-serif;
+  color: #212353;
 }
 
 .testimonials {
