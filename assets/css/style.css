@@ -12,7 +12,7 @@
   grid-template-columns: 1fr 1fr 2fr 4fr 4fr 2fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-    ". navbar navbar navbar navbar navbar navbar navbar button ."
+    ". navbar navbar ."
     ". promotion promotion ."
     ". about about ."
     ". features features ."
@@ -49,7 +49,7 @@
   grid-column-end: 8;
   grid-row-start: 5;
   grid-row-end: 6;
-  background-color: plum;
+  /* background-color: plum; */
 }
 
 .item-3 {
@@ -85,7 +85,7 @@
   grid-column-end: 9;
   grid-row-start: 13;
   grid-row-end: 14;
-  background-color: blue;
+  background-color: yellow;
 }
 
 #requestDemo {
@@ -96,6 +96,28 @@
   height: 60px;
   font-family: "Avenir", Helvetica, sans-serif;
   /* justify-self: end; */
+}
+
+#promoTitle {
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 645px;
+  height: 184px;
+}
+
+#promoText {
+  font-size: 18px;
+  font-family: "Avenir", Helvetica, sans-serif;
+  color: #4b5d68;
+}
+
+#learnMore {
+  background-color: #9c69e2;
+  color: #ffffff;
+  border-radius: 50px;
+  width: 170px;
+  height: 60px;
+  font-family: "Avenir", Helvetica, sans-serif;
 }
 
 span {
@@ -121,6 +143,8 @@ span {
 
 .navbar {
   overflow: hidden;
+  display: flex;
+  align-items: center;
   /* background-color: #333; */
 }
 
