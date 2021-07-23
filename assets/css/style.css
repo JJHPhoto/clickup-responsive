@@ -9,7 +9,7 @@
 body {
   margin: 0 15%;
   /* background: #e5e5e5; */
-  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+  /* background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%); */
 }
 
 #promotion {
@@ -48,6 +48,8 @@ body {
 #about {
   margin: 10% auto;
   position: relative;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
 }
 
 #subHeadline {
@@ -64,22 +66,53 @@ body {
 
 #features {
   margin: 10% auto;
+  position: relative;
 }
 /* children elements not being effected  */
 
 /* hiting this ID but centering not working */
-#featuresTitle {
+/* #featuresTitle {
   display: flex;
   flex-direction: column;
   align-content: center;
-}
+} */
 
+/* flex not working  */
 #featuresCards {
   width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 150px;
+  height: 1200px;
+  /* only so that i can see all cards. lower to 600px after wrap working */
+}
+
+#searchCard {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 360px;
+}
+
+#accessCard {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 360px;
+}
+
+#printCard {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 360px;
+}
+
+#securityCard {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 360px;
 }
 
 .cardTitles {
@@ -104,8 +137,46 @@ body {
   color: #212353;
 }
 
-.testimonials {
+#testimonials {
   margin: 10% auto;
+  position: relative;
+}
+
+#testimonialsBody {
+  background: #9c69e2;
+  border-radius: 50px;
+  height: 500px;
+}
+
+#testimonialHeader {
+  font-size: 40px;
+  font-family: "Avenir", Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+.testimonialName {
+  font-size: 18px;
+  font-family: "Avenir", Helvetica, sans-serif;
+  color: #212353;
+}
+
+.testimonialCard {
+  background: #ffffff;
+}
+
+.testimonialTitle {
+  font-size: 14px;
+  font-family: "Avenir", Helvetica, sans-serif;
+  color: #9c69e2;
+}
+
+.testimonlial {
+  font-size: 14px;
+  font-family: "Avenir", Helvetica, sans-serif;
+}
+
+.testimonialImg {
+  width: 5%;
 }
 
 #requestDemo {
