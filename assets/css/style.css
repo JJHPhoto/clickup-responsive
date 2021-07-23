@@ -6,86 +6,49 @@
     url("../fonts/Avenir.svg#Avenir") format("svg");
 }
 
-.container {
+body {
+  margin: 0 15%;
   background-image: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr 4fr 4fr 2fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    ". navbar navbar ."
-    ". promotion promotion ."
-    ". about about ."
-    ". features features ."
-    ". testimonials testimonials ."
-    ". footer footer .";
 }
 
-.item-1 {
-  grid-area: navbar;
-  grid-column-start: 2;
-  grid-column-end: 8;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  margin-top: 2rem;
-  /* align-self: center; */
-  /* place-self: center stretch; */
-  /* figure out this start/end stuff */
+#promotion {
+  margin: 10% auto;
+  position: relative;
 }
 
-/* .testbutton {
-  grid-area: button;
-  grid-column-start: 7;
-  grid-column-end: 8;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  justify-self: end;
-  margin-top: 2rem;
-  background-color: aqua;
-} */
-
-.item-2 {
-  grid-area: promotion;
-  grid-column-start: 2;
-  grid-column-end: 8;
-  grid-row-start: 5;
-  grid-row-end: 6;
-  /* background-color: plum; */
+#headline {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
 }
 
-.item-3 {
-  grid-area: about;
-  grid-column-start: 2;
-  grid-column-end: 8;
-  grid-row-start: 7;
-  grid-row-end: 8;
-  background-color: purple;
+#headlineImg {
+  width: 80%;
 }
 
-.item-4 {
-  grid-area: features;
-  grid-column-start: 2;
-  grid-column-end: 8;
-  grid-row-start: 9;
-  grid-row-end: 10;
-  background-color: green;
+#promoTitle {
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.item-5 {
-  grid-area: testimonials;
-  grid-column-start: 2;
-  grid-column-end: 8;
-  grid-row-start: 11;
-  grid-row-end: 12;
-  background-color: red;
+#promoText {
+  font-size: 18px;
+  font-family: "Avenir", Helvetica, sans-serif;
+  color: #4b5d68;
 }
 
-.item-6 {
-  grid-area: footer;
-  grid-column-start: 1;
-  grid-column-end: 9;
-  grid-row-start: 13;
-  grid-row-end: 14;
-  background-color: yellow;
+.about {
+  margin: 10% auto;
+}
+
+.features {
+  margin: 10% auto;
+}
+
+.testimonials {
+  margin: 10% auto;
 }
 
 #requestDemo {
@@ -96,19 +59,6 @@
   height: 60px;
   font-family: "Avenir", Helvetica, sans-serif;
   /* justify-self: end; */
-}
-
-#promoTitle {
-  font-size: 80px;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 645px;
-  height: 184px;
-}
-
-#promoText {
-  font-size: 18px;
-  font-family: "Avenir", Helvetica, sans-serif;
-  color: #4b5d68;
 }
 
 #learnMore {
