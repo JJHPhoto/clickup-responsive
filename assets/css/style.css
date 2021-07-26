@@ -162,7 +162,27 @@ body {
   color: #212353;
 }
 
-.testimonialCard {
+#testimonialCardJohn {
+  background: #ffffff;
+  height: 330px;
+  width: 645px;
+  border-radius: 20px;
+  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+}
+
+#testimonialCardJeny {
+  height: 330px;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+  background: linear-gradient(
+    270deg,
+    #9c69e2 9.75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+#jenyBackground {
   background: #ffffff;
 }
 
