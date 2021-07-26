@@ -94,11 +94,31 @@ body {
   height: 360px;
 }
 
+#searchCardBackground {
+  background: #68c9ba;
+  /* opacity: 0.1; */
+  border-radius: 20px;
+  width: 442px;
+  height: 358px;
+  padding: 1rem;
+  /* background-blend-mode: soft-light; */
+}
+
 #accessCard {
   width: 40%;
   display: flex;
   flex-wrap: wrap;
   height: 360px;
+}
+
+#accessCardBackground {
+  background: #9c69e2;
+  /* opacity: 0.1; */
+  border-radius: 20px;
+  width: 442px;
+  height: 358px;
+  padding: 1rem;
+  /* background-blend-mode: soft-light; */
 }
 
 #printCard {
@@ -108,11 +128,32 @@ body {
   height: 360px;
 }
 
+#printCardBackground {
+  background: #f063b8;
+  /* opacity: 0.1; */
+  border-radius: 20px;
+  width: 442px;
+  height: 358px;
+  padding: 1rem;
+  /* background-blend-mode: soft-light; */
+}
+
 #securityCard {
   width: 40%;
   display: flex;
   flex-wrap: wrap;
   height: 360px;
+}
+
+/* need to figure out why the opacity is hitting parent card */
+#securityCardBackground {
+  background: #2d9cdb;
+  /* opacity: 0.1; */
+  border-radius: 20px;
+  width: 442px;
+  height: 358px;
+  padding: 1rem;
+  /* background-blend-mode: soft-light; */
 }
 
 .cardTitles {
@@ -146,7 +187,7 @@ body {
 #testimonialsBody {
   background: #9c69e2;
   border-radius: 50px;
-  height: 500px;
+  height: 709px;
   width: 1118px;
   padding-left: 5rem;
   display: flex;
@@ -179,6 +220,7 @@ body {
   margin-right: 1.5rem;
 }
 
+/* hide this card in responsive  */
 #testimonialCardJeny {
   height: 330px;
   width: 400px;
