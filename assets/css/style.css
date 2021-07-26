@@ -31,12 +31,18 @@ body {
 
 #promoTitle {
   font-size: 80px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Avenir", Helvetica, sans-serif;
 }
 
 .mediumTitle {
   font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Avenir", Helvetica, sans-serif;
+}
+
+.footerTitle {
+  font-size: 16px;
+  font-family: "Avenir", Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 .largeParagraph {
@@ -257,41 +263,42 @@ body {
   height: 6rem;
 }
 
-/* #footerAd {
-  width: 80%;
+.footer {
+  width: 100%;
+  display: block;
+}
+
+.footerBottom {
+  width: 95%;
+  margin: auto;
+  padding: 30px 10px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 150px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  /* not sure what this box sizing is */
+  justify-content: center;
 }
 
-#footerInfoTitles {
-  width: 80%;
+.footerTop {
+  width: 95%;
+  margin: auto;
+  padding: 10px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 150px;
-} */
-
-/* font size/weight isn't working */
-/* .dataWarehouse {
-  font-size: 20px;
-  font-weight: 800;
-  font-family: "Avenir", Helvetica, sans-serif;
-  color: #212353;
+  flex-wrap: wrap;
+  /* box-sizing: border-box; */
 }
 
-#footerSmallTitles {
-  font-size: 16px;
-  font-family: "Avenir", Helvetica, sans-serif;
-  color: #212353;
+.footerItems {
+  width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
 }
 
-#footerInfo {
+ul {
+  list-style: none;
   font-size: 16px;
-  font-family: "Avenir", Helvetica, sans-serif;
-  color: #212353;
-} */
+  letter-spacing: 0.5px;
+}
 
 #requestDemo {
   background-color: #ffffff;
