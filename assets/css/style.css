@@ -276,7 +276,7 @@ body {
   flex-wrap: wrap;
   box-sizing: border-box;
   /* not sure what this box sizing is */
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .footerTop {
