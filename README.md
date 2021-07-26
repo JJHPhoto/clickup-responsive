@@ -13,6 +13,7 @@ Mini-project for ClickUp job applicaiton. I need to make a responsive version of
 - responsive menu working
 - divided up grid areas
 - class vs id
+- get things looking close on page
 
 ## Stack
 

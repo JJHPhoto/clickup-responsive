@@ -257,7 +257,7 @@ body {
   height: 6rem;
 }
 
-#footerAd {
+/* #footerAd {
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -271,10 +271,10 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 150px;
-}
+} */
 
 /* font size/weight isn't working */
-.dataWarehouse {
+/* .dataWarehouse {
   font-size: 20px;
   font-weight: 800;
   font-family: "Avenir", Helvetica, sans-serif;
@@ -291,7 +291,7 @@ body {
   font-size: 16px;
   font-family: "Avenir", Helvetica, sans-serif;
   color: #212353;
-}
+} */
 
 #requestDemo {
   background-color: #ffffff;

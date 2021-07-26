@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <!-- <div class="container"> -->
     <nav class="navbar" id="myNavbar">
       <a href="#"
         ><span class="purpleDot"></span><span class="pinkDot"></span>
@@ -68,8 +67,8 @@
           <div id="searchCardBackground">
             <h3 class="cardTitles">Search Data</h3>
             <p class="cardParagraph">
-              Don’t worry if your data is very large, the Data Warehoue provides a
-              search engine, which is useful for making it easier to find data
+              Don’t worry if your data is very large, the Data Warehoue provides
+              a search engine, which is useful for making it easier to find data
               effectively saving time.
             </p>
             <img id="cardImg" src="./assets/images/searchData.png" alt="" />
@@ -100,7 +99,7 @@
           </div>
         </div>
         <div id="securityCard">
-          <div id ="securityCardBackground">
+          <div id="securityCardBackground">
             <h3 class="cardTitles">Security Code</h3>
             <p class="cardParagraph">
               Data Security is one of our best facilities. Allows for your files
@@ -133,11 +132,11 @@
           </p>
         </div>
         <div id="jenyBackground">
-        <div id="testimonialCardJeny">
+          <div id="testimonialCardJeny">
             <img
-            class="testimonialImg"
-            src="./assets/images/jenyDoe.png"
-            alt=""
+              class="testimonialImg"
+              src="./assets/images/jenyDoe.png"
+              alt=""
             />
             <h4 class="testimonialName">Jeny Doe</h4>
             <p class="testimonialTitle">UX Engineer</p>
@@ -150,54 +149,22 @@
         <div class="testimonials-slider"></div>
       </div>
     </div>
-    <footer class="footer">
-      <div id="footerAd">
-        <h1 class="mediumTitle">
-          <span class="purpleDot"></span><span class="pinkDot"></span> Try for
-          free!
-        </h1>
-        <p class="testimonialName">Get limited 1 week free try our features!</p>
-        <button id="learnMorePink">Learn More</button>
-        <button id="requestDemo">Request Demo <span>&#8594;</span></button>
+    <div class="footer">
+      <div class="inner-footer">
+        <div class="footer-items">
+          <h1 class="mediumTitle">
+            <span class="purpleDot"></span><span class="pinkDot"></span> Try for
+            free!
+          </h1>
+          <p class="testimonialName">
+            Get limited 1 week free try our features!
+          </p>
+          <button id="learnMorePink">Learn More</button>
+          <button id="requestDemo">Request Demo <span>&#8594;</span></button>
+          <!-- possible to fix this with flexbox? -->
+        </div>
       </div>
-      <div class="footerInfoTitles">
-        <div id="dataWarehouse">Data Warehouse</div>
-        <div class="footerSmallTitles">About</div>
-        <div class="footerSmallTitles">Help</div>
-        <div class="footerSmallTitles">Social Media</div>
-      </div>
-      <div class="footerText">
-        <p class="footerInfo">
-          Warehouse Society, 234 Bahagia Ave Street PRBW 29281
-          info@warehouse.project 1-232-3434 (Main)
-        </p>
-        <p class="footerInfo">
-          <ul id="footerAbout">
-            <li>Profile</li>
-            <li>Features</li>
-            <li>Careers</li>
-            <li>DW News</li>
-          </ul>
-        </p>
-        <p class="footerInfo">
-          <ul id="footerHelp">
-            <li>Support</li>
-            <li>Signup</li>
-            <li>Guide</li>
-            <li>Reports</li>
-            <li>Q&A</li>
-          </ul>
-        </p>
-        <p class="footerInfo">
-          <ul id="footerSocial">
-            <li>circle</li>
-            <li>circle</li>
-            <li>circle</li>
-          </ul>
-        </p>
-      </div>
-    </footer>
-    <!-- </div> -->
+    </div>
     <script>
       function responsiveMenu() {
         var x = document.getElementById("myNavbar");
