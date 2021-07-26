@@ -371,8 +371,8 @@ span {
 }
 
 /* responsive break points */
-/* might need to change max width to have "request demo" button not drop a line  */
-@media screen and (max-width: 600px) {
+/* footer buttons need to be hidden/shrunk */
+@media screen and (max-width: 800px) {
   .navbar a:not(:first-child) {
     display: none;
   }
@@ -382,7 +382,7 @@ span {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .navbar.responsive {
     position: relative;
   }
@@ -397,6 +397,18 @@ span {
     text-align: left;
   }
 }
+
+/* @media screen and (max-width: 1275px) {
+  .footeItems {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .footeItems {
+    width: 100%;
+  }
+} */
 
 /* work on later */
 /* logo css here
