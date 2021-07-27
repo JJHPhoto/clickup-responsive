@@ -99,16 +99,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   height: 360px;
-}
-
-#searchCardBackground {
-  background: #68c9ba;
-  /* opacity: 0.1; */
+  background: rgba(104, 201, 186, 0.1);
   border-radius: 20px;
-  width: 442px;
-  height: 358px;
-  padding: 1rem;
-  /* background-blend-mode: soft-light; */
 }
 
 #accessCard {
@@ -116,16 +108,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   height: 360px;
-}
-
-#accessCardBackground {
-  background: #9c69e2;
-  /* opacity: 0.1; */
+  background: rgba(156, 105, 226, 0.1);
   border-radius: 20px;
-  width: 442px;
-  height: 358px;
-  padding: 1rem;
-  /* background-blend-mode: soft-light; */
 }
 
 #printCard {
@@ -133,16 +117,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   height: 360px;
-}
-
-#printCardBackground {
-  background: #f063b8;
-  /* opacity: 0.1; */
+  background: rgba(240, 99, 184, 0.1);
   border-radius: 20px;
-  width: 442px;
-  height: 358px;
-  padding: 1rem;
-  /* background-blend-mode: soft-light; */
 }
 
 #securityCard {
@@ -150,17 +126,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   height: 360px;
-}
-
-/* need to figure out why the opacity is hitting parent card */
-#securityCardBackground {
-  background: #2d9cdb;
-  /* opacity: 0.1; */
+  background: rgba(45, 156, 219, 0.1);
   border-radius: 20px;
-  width: 442px;
-  height: 358px;
-  padding: 1rem;
-  /* background-blend-mode: soft-light; */
 }
 
 .cardTitles {
