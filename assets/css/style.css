@@ -12,6 +12,102 @@ body {
   /* background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%); */
 }
 
+span {
+  content: "\2192";
+}
+
+.pinkDot {
+  height: 35px;
+  width: 20px;
+  background-color: #f06388;
+  border-radius: 20px;
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+.purpleDot {
+  height: 20px;
+  width: 20px;
+  background-color: #9c69e2;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+#requestDemo {
+  background-color: #ffffff;
+  box-shadow: 0px 5px 5px rbg(75, 93, 104, 0.1);
+  border-radius: 50px;
+  width: 210px;
+  height: 60px;
+  font-family: "Avenir", Helvetica, sans-serif;
+  /* margin-left: 20rem; */
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-self: end; */
+}
+
+#learnMore {
+  background-color: #9c69e2;
+  color: #ffffff;
+  border-radius: 50px;
+  width: 170px;
+  height: 60px;
+  font-family: "Avenir", Helvetica, sans-serif;
+}
+
+#learnMorePink {
+  background-color: #f06388;
+  color: #ffffff;
+  border-radius: 50px;
+  width: 170px;
+  height: 60px;
+  font-family: "Avenir", Helvetica, sans-serif;
+}
+
+.mediumTitle {
+  font-size: 40px;
+  font-family: "Avenir", Helvetica, sans-serif;
+}
+
+.footerTitle {
+  font-size: 16px;
+  font-family: "Avenir", Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.largeParagraph {
+  font-size: 18px;
+  font-family: "Avenir", Helvetica, sans-serif;
+  color: #4b5d68;
+}
+
+.navbar {
+  overflow: hidden;
+  /* display: flex;
+  align-items: center; */
+  /* background-color: #333; */
+}
+
+.navbarRight {
+  float: right;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #4b5d68;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  line-height: 160%;
+}
+
+.navbar .icon {
+  display: none;
+}
+
 #promotion {
   margin: 10% auto;
   position: relative;
@@ -33,23 +129,6 @@ body {
 #promoTitle {
   font-size: 80px;
   font-family: "Avenir", Helvetica, sans-serif;
-}
-
-.mediumTitle {
-  font-size: 40px;
-  font-family: "Avenir", Helvetica, sans-serif;
-}
-
-.footerTitle {
-  font-size: 16px;
-  font-family: "Avenir", Helvetica, sans-serif;
-  font-weight: 400;
-}
-
-.largeParagraph {
-  font-size: 18px;
-  font-family: "Avenir", Helvetica, sans-serif;
-  color: #4b5d68;
 }
 
 #about {
@@ -75,7 +154,6 @@ body {
   margin: 10% auto;
   position: relative;
 }
-/* children elements not being effected  */
 
 /* hiting this ID but centering not working */
 /* #featuresTitle {
@@ -84,7 +162,6 @@ body {
   align-content: center;
 } */
 
-/* flex not working  */
 #featuresCards {
   width: 100%;
   display: flex;
@@ -168,8 +245,6 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
-/* think grid will work better than flexbox */
 
 #testimonialHeader {
   padding-top: 3rem;
@@ -269,87 +344,15 @@ ul {
   letter-spacing: 0.5px;
 }
 
-#requestDemo {
-  background-color: #ffffff;
-  box-shadow: 0px 5px 5px rbg(75, 93, 104, 0.1);
-  border-radius: 50px;
-  width: 210px;
-  height: 60px;
-  font-family: "Avenir", Helvetica, sans-serif;
-  /* margin-left: 20rem; */
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-self: end; */
-}
-
-#learnMore {
-  background-color: #9c69e2;
-  color: #ffffff;
-  border-radius: 50px;
-  width: 170px;
-  height: 60px;
-  font-family: "Avenir", Helvetica, sans-serif;
-}
-
-#learnMorePink {
-  background-color: #f06388;
-  color: #ffffff;
-  border-radius: 50px;
-  width: 170px;
-  height: 60px;
-  font-family: "Avenir", Helvetica, sans-serif;
-}
-
-span {
-  content: "\2192";
-}
-
-.pinkDot {
-  height: 35px;
-  width: 20px;
-  background-color: #f06388;
-  border-radius: 20px;
-  display: inline-block;
-  margin-left: 0.5rem;
-}
-
-.purpleDot {
-  height: 20px;
-  width: 20px;
-  background-color: #9c69e2;
-  border-radius: 20px;
-  display: inline-block;
-}
-
-.navbar {
-  overflow: hidden;
-  /* display: flex;
-  align-items: center; */
-  /* background-color: #333; */
-}
-
-.navbarRight {
-  float: right;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: #4b5d68;
-  text-align: center;
-  padding: 14px 16px;
-  font-size: 17px;
-  line-height: 160%;
-}
-
-.navbar .icon {
-  display: none;
-}
-
 /* responsive break points */
 /* footer buttons need to be hidden/shrunk */
+
+@media screen and (max-width: 660px) {
+  .footerItems {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .navbar a:not(:first-child) {
     display: none;
@@ -376,17 +379,12 @@ span {
   }
 }
 
-/* @media screen and (max-width: 1275px) {
-  .footeItems {
+@media screen and (max-width: 1275px) {
+  .footerItems {
     width: 100%;
   }
 }
-
-@media screen and (max-width: 660px) {
-  .footeItems {
-    width: 100%;
-  }
-} */
+/* social media not in right div? */
 
 /* work on later */
 /* logo css here
@@ -406,10 +404,4 @@ span {
   grid-row-start: 2;
   grid-row-end: 4;
   background-color: green;
-} */
-
-/* unused */
-/* .navbar a:hover {
-  background-color: #ddd;
-  color: black;
 } */
