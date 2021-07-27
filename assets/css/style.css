@@ -6,6 +6,37 @@
     url("../fonts/Avenir.svg#Avenir") format("svg");
 }
 
+li,
+a,
+button,
+p,
+h2,
+h3 {
+  font-family: "Avenir", Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 30px 10%; */
+}
+
+.navLinks {
+  margin-right: 10rem;
+}
+
+.navLinks li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navLinks li a {
+  color: #4b5d68;
+  text-decoration: none;
+}
+
 body {
   margin: 3% 20%;
   /* background: #e5e5e5; */
@@ -39,11 +70,6 @@ span {
   border-radius: 50px;
   width: 210px;
   height: 60px;
-  font-family: "Avenir", Helvetica, sans-serif;
-  /* margin-left: 20rem; */
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-self: end; */
 }
 
 #learnMore {
@@ -52,7 +78,7 @@ span {
   border-radius: 50px;
   width: 170px;
   height: 60px;
-  font-family: "Avenir", Helvetica, sans-serif;
+  /* font-family: "Avenir", Helvetica, sans-serif; */
   margin-top: 2rem;
 }
 
@@ -62,27 +88,27 @@ span {
   border-radius: 50px;
   width: 170px;
   height: 60px;
-  font-family: "Avenir", Helvetica, sans-serif;
+  /* font-family: "Avenir", Helvetica, sans-serif; */
 }
 
 .mediumTitle {
   font-size: 40px;
-  font-family: "Avenir", Helvetica, sans-serif;
+  /* font-family: "Avenir", Helvetica, sans-serif; */
 }
 
 .footerTitle {
   font-size: 16px;
-  font-family: "Avenir", Helvetica, sans-serif;
+  /* font-family: "Avenir", Helvetica, sans-serif; */
   font-weight: 400;
 }
 
 .largeParagraph {
   font-size: 18px;
-  font-family: "Avenir", Helvetica, sans-serif;
+  /* font-family: "Avenir", Helvetica, sans-serif; */
   color: #4b5d68;
 }
 
-.navbar {
+/* .navbar {
   overflow: hidden;
   display: flex;
   justify-content: space-between;
@@ -107,7 +133,7 @@ span {
 
 .navbar .icon {
   display: none;
-}
+} */
 
 #promotion {
   margin: 10% auto;
@@ -138,7 +164,7 @@ span {
 
 #promoTitle {
   font-size: 3rem;
-  font-family: "Avenir", Helvetica, sans-serif;
+  /* font-family: "Avenir", Helvetica, sans-serif; */
 }
 
 #about {
@@ -225,13 +251,13 @@ span {
 
 .cardTitles {
   font-size: 24px;
-  font-family: "Avenir", Helvetica, sans-serif;
+  /* font-family: "Avenir", Helvetica, sans-serif; */
   color: #212353;
 }
 
 .cardParagraph {
   font-size: 16px;
-  font-family: "Avenir", Helvetica, sans-serif;
+  /* font-family: "Avenir", Helvetica, sans-serif; */
   color: #4b5d68;
 }
 
@@ -241,7 +267,7 @@ span {
 
 .cardButton {
   font-size: 16px;
-  font-family: "Avenir", Helvetica, sans-serif;
+  /* font-family: "Avenir", Helvetica, sans-serif; */
   color: #212353;
 }
 
@@ -264,14 +290,14 @@ span {
 #testimonialHeader {
   padding-top: 3rem;
   font-size: 40px;
-  font-family: "Avenir", Helvetica, sans-serif;
+  /* font-family: "Avenir", Helvetica, sans-serif; */
   color: #ffffff;
   padding-right: 15rem;
 }
 
 .testimonialName {
   font-size: 18px;
-  font-family: "Avenir", Helvetica, sans-serif;
+  /* font-family: "Avenir", Helvetica, sans-serif; */
   color: #212353;
 }
 
@@ -308,13 +334,13 @@ span {
 
 .testimonialTitle {
   font-size: 14px;
-  font-family: "Avenir", Helvetica, sans-serif;
+  /* font-family: "Avenir", Helvetica, sans-serif; */
   color: #9c69e2;
 }
 
 .testimonlial {
   font-size: 14px;
-  font-family: "Avenir", Helvetica, sans-serif;
+  /* font-family: "Avenir", Helvetica, sans-serif; */
 }
 
 .testimonialImg {
