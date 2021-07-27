@@ -53,6 +53,7 @@ span {
   width: 170px;
   height: 60px;
   font-family: "Avenir", Helvetica, sans-serif;
+  margin-top: 2rem;
 }
 
 #learnMorePink {
@@ -83,9 +84,9 @@ span {
 
 .navbar {
   overflow: hidden;
-  /* display: flex;
-  align-items: center; */
-  /* background-color: #333; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbarRight {
@@ -111,6 +112,11 @@ span {
 #promotion {
   margin: 10% auto;
   position: relative;
+  display: flex;
+  flex-wrap: unset;
+  /* background-image: url("../images/promotion.png");
+  background-repeat: no-repeat;
+  background-size: auto; */
 }
 
 #headline {
@@ -118,16 +124,20 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 300px;
-  /* background-image: url("../images/promotion.png"); */
+  /* height: 300px; */
 }
 
 #headlineImg {
-  width: 50%;
+  width: 60%;
+}
+
+#headline p {
+  width: 102%;
+  margin-top: 2rem;
 }
 
 #promoTitle {
-  font-size: 80px;
+  font-size: 3rem;
   font-family: "Avenir", Helvetica, sans-serif;
 }
 
@@ -136,18 +146,23 @@ span {
   position: relative;
   background: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 #subHeadline {
   width: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 150px;
+  margin: auto;
+  padding: 2rem;
+  /* justify-content: space-between; */
+  /* height: 150px; */
 }
 
-#subHeadlinImg {
-  width: 30%;
+#subHeadlineImg {
+  width: 45%;
+  padding: 1rem;
 }
 
 #features {
@@ -233,7 +248,7 @@ span {
 #testimonials {
   margin: 10% auto;
   position: relative;
-  display: flex;
+  /* display: flex; */
 }
 
 #testimonialsBody {
@@ -287,8 +302,8 @@ span {
 #jenyBackground {
   background: #ffffff;
   border-radius: 20px;
-  width: 400px;
   height: 330px;
+  width: 400px;
 }
 
 .testimonialTitle {
