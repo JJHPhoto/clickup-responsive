@@ -21,7 +21,6 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  /* align-content: stretch; */
 }
 
 #navbar {
@@ -29,12 +28,10 @@ header {
 }
 
 .navLinks {
-  /* margin-right: 10rem; */
   display: flex;
 }
 
 .navLinks li {
-  /* display: inline-block; */
   padding: 0px 20px;
 }
 
@@ -103,6 +100,7 @@ body {
 
 .mediumTitle {
   font-size: 40px;
+  padding-bottom: 2rem;
 }
 
 .footerTitle {
@@ -114,33 +112,6 @@ body {
   font-size: 18px;
   color: #4b5d68;
 }
-
-/* .navbar {
-  overflow: hidden;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbarRight {
-  float: right;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: #4b5d68;
-  text-align: center;
-  padding: 14px 16px;
-  font-size: 17px;
-  line-height: 160%;
-}
-
-.navbar .icon {
-  display: none;
-} */
 
 #promotion {
   height: 400px;
@@ -160,7 +131,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* height: 300px; */
 }
 
 #headlineImg {
@@ -168,12 +138,14 @@ body {
 }
 
 #headline p {
-  width: 102%;
+  width: 45%;
   margin-top: 2rem;
+  line-height: 1.5rem;
 }
 
 #promoTitle {
-  font-size: 3rem;
+  font-size: 5rem;
+  color: #212353;
 }
 
 #about {
@@ -191,8 +163,11 @@ body {
   flex-direction: column;
   margin: auto;
   padding: 2rem;
-  /* justify-content: space-between; */
-  /* height: 150px; */
+}
+
+#subHeadline p {
+  width: 80%;
+  line-height: 1.5rem;
 }
 
 #subHeadlineImg {
@@ -206,11 +181,11 @@ body {
 }
 
 /* hiting this ID but centering not working */
-/* #featuresTitle {
+#featuresTitle {
   display: flex;
   flex-direction: column;
   align-content: center;
-} */
+}
 
 #featuresCards {
   width: 100%;
