@@ -83,10 +83,15 @@ body {
   background-color: #9c69e2;
   color: #ffffff;
   border-radius: 50px;
-  width: 170px;
   height: 60px;
-  margin-top: 2rem;
   border: none;
+  width: 170px;
+  order: 3;
+  /* flex-shrink: 2; */
+  /* flex: 1 0 auto; */
+  /* min-width: 170px; */
+  /* margin-top: 2rem; */
+  /* min-height: 60px; */
 }
 
 #learnMorePink {
@@ -108,17 +113,11 @@ body {
   font-weight: 400;
 }
 
-.largeParagraph {
-  font-size: 18px;
-  color: #4b5d68;
-}
-
 #promotion {
-  height: 400px;
   margin: 10% auto;
   position: relative;
   display: flex;
-  flex-wrap: unset;
+  flex-wrap: wrap;
   background-image: url("../images/promotion.png");
   background-repeat: no-repeat;
   background-size: 600px;
@@ -128,29 +127,28 @@ body {
 
 #headline {
   width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-#headlineImg {
-  width: 60%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
 }
 
 #headline p {
   width: 45%;
-  margin-top: 2rem;
+  margin: 2rem 0;
   line-height: 1.5rem;
+  font-size: 18px;
+  order: 2;
+  color: #4b5d68;
 }
 
 #promoTitle {
-  font-size: 5rem;
+  font-size: 80px;
   color: #212353;
+  order: 1;
 }
 
 #about {
   margin: 10% auto;
-  position: relative;
   background: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
   display: flex;
