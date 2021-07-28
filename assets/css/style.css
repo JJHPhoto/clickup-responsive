@@ -157,10 +157,11 @@ body {
 }
 
 #subHeadline {
-  width: 80%;
+  /* width: 80%; */
+  /* flex: 3; */
   display: flex;
-  flex-direction: column;
-  margin: auto;
+  flex-direction: inherit;
+  /* margin: auto; */
   padding: 2rem;
 }
 
@@ -170,8 +171,8 @@ body {
 }
 
 #subHeadlineImg {
-  width: 45%;
   padding: 1rem;
+  flex: 1;
 }
 
 /* #features {
@@ -190,7 +191,7 @@ body {
 }
 
 #featuresCards {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: inherit;
@@ -198,9 +199,10 @@ body {
 }
 
 #searchCard {
-  /* flex: 10; */
-  width: 50%;
-  height: 350px;
+  flex: 1;
+  margin-right: 5rem;
+  margin-bottom: 2.5rem;
+  padding: 2rem;
   display: flex;
   background-image: url("/assets/images/searchDataBG.png");
   background-repeat: no-repeat;
@@ -210,9 +212,10 @@ body {
 }
 
 #accessCard {
-  /* flex: 10; */
-  width: 50%;
-  height: 350px;
+  flex: 1;
+  padding: 2rem;
+  margin-right: 5rem;
+  margin-bottom: 2.5rem;
   display: flex;
   background-image: url("/assets/images/accessBG.png");
   background-repeat: no-repeat;
@@ -222,9 +225,10 @@ body {
 }
 
 #printCard {
-  width: 50%;
-  /* flex: 10; */
-  height: 350px;
+  flex: 1;
+  padding: 2rem;
+  margin-right: 5rem;
+  margin-bottom: 2.5rem;
   display: flex;
   background-image: url("/assets/images/printOutBG.png");
   background-repeat: no-repeat;
@@ -234,9 +238,10 @@ body {
 }
 
 #securityCard {
-  width: 50%;
-  /* flex: 10; */
-  height: 350px;
+  flex: 1;
+  margin-right: 5rem;
+  margin-bottom: 2.5rem;
+  padding: 2rem;
   display: flex;
   background-image: url("/assets/images/securityCodeBG.png");
   background-repeat: no-repeat;
@@ -256,9 +261,11 @@ body {
   color: #4b5d68;
 }
 
-/* .cardImg {
-  width: 50%;
-} */
+img {
+  /* align-content: center; */
+  flex: 1;
+  padding: 1rem;
+}
 
 .cardInformation {
   display: flex;
