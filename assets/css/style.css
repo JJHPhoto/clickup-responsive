@@ -194,11 +194,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: inherit;
-  /* justify-content: space-between; */
+  /* justify-content: space-around; */
 }
 
 #searchCard {
+  /* flex: 10; */
   width: 50%;
+  height: 350px;
   display: flex;
   background-image: url("/assets/images/searchDataBG.png");
   background-repeat: no-repeat;
@@ -208,9 +210,10 @@ body {
 }
 
 #accessCard {
+  /* flex: 10; */
   width: 50%;
+  height: 350px;
   display: flex;
-  /* flex-wrap: wrap; */
   background-image: url("/assets/images/accessBG.png");
   background-repeat: no-repeat;
   background-position-x: right;
@@ -220,8 +223,9 @@ body {
 
 #printCard {
   width: 50%;
+  /* flex: 10; */
+  height: 350px;
   display: flex;
-  /* flex-wrap: wrap; */
   background-image: url("/assets/images/printOutBG.png");
   background-repeat: no-repeat;
   background-position-x: right;
@@ -231,8 +235,9 @@ body {
 
 #securityCard {
   width: 50%;
+  /* flex: 10; */
+  height: 350px;
   display: flex;
-  /* flex-wrap: wrap; */
   background-image: url("/assets/images/securityCodeBG.png");
   background-repeat: no-repeat;
   background-position-x: right;
@@ -243,6 +248,7 @@ body {
 .cardTitles {
   font-size: 24px;
   color: #212353;
+  /* width: auto; */
 }
 
 .cardParagraph {
@@ -251,9 +257,7 @@ body {
 }
 
 /* .cardImg {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  width: 50%;
 } */
 
 .cardInformation {
