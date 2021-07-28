@@ -43,8 +43,9 @@ body {
   /* background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%); */
 }
 
-span {
-  content: "\2192";
+.logo {
+  display: flex;
+  align-items: flex-end;
 }
 
 .pinkDot {
@@ -66,8 +67,9 @@ span {
 
 #requestDemo {
   background-color: #ffffff;
-  box-shadow: 0px 5px 5px rbg(75, 93, 104, 0.1);
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
+  border: none;
   width: 210px;
   height: 60px;
 }
@@ -78,8 +80,8 @@ span {
   border-radius: 50px;
   width: 170px;
   height: 60px;
-  /* font-family: "Avenir", Helvetica, sans-serif; */
   margin-top: 2rem;
+  border: none;
 }
 
 #learnMorePink {
@@ -88,12 +90,11 @@ span {
   border-radius: 50px;
   width: 170px;
   height: 60px;
-  /* font-family: "Avenir", Helvetica, sans-serif; */
+  border: none;
 }
 
 .mediumTitle {
   font-size: 40px;
-  /* font-family: "Avenir", Helvetica, sans-serif; */
 }
 
 .footerTitle {
@@ -136,13 +137,16 @@ span {
 } */
 
 #promotion {
+  height: 400px;
   margin: 10% auto;
   position: relative;
   display: flex;
   flex-wrap: unset;
-  /* background-image: url("../images/promotion.png");
+  background-image: url("../images/promotion.png");
   background-repeat: no-repeat;
-  background-size: auto; */
+  background-size: 600px;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
 #headline {
@@ -285,6 +289,7 @@ span {
   padding-left: 5rem;
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 #testimonialHeader {
@@ -306,7 +311,7 @@ span {
   height: 330px;
   width: 600px;
   border-radius: 20px;
-  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+  box-shadow: 0px 20px 0px rgba(128, 71, 213, 0.5);
   padding: 4rem;
   margin-right: 1.5rem;
 }
@@ -314,9 +319,9 @@ span {
 /* hide this card in responsive  */
 #testimonialCardJeny {
   height: 330px;
-  width: 400px;
+  width: 600px;
   border-radius: 20px;
-  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+  box-shadow: 0px 20px 0px rgba(128, 71, 213, 0.3);
   padding: 4rem;
   background: linear-gradient(
     270deg,
