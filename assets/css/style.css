@@ -18,17 +18,23 @@ h3 {
 
 header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  /* padding: 30px 10%; */
+  /* align-content: stretch; */
+}
+
+#navbar {
+  flex: 10;
 }
 
 .navLinks {
-  margin-right: 10rem;
+  /* margin-right: 10rem; */
+  display: flex;
 }
 
 .navLinks li {
-  display: inline-block;
+  /* display: inline-block; */
   padding: 0px 20px;
 }
 
@@ -46,6 +52,7 @@ body {
 .logo {
   display: flex;
   align-items: flex-end;
+  flex: 2;
 }
 
 .pinkDot {
@@ -70,8 +77,9 @@ body {
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
   border: none;
-  width: 210px;
   height: 60px;
+  min-width: 210px;
+  flex: 1 0 auto;
 }
 
 #learnMore {
@@ -99,13 +107,11 @@ body {
 
 .footerTitle {
   font-size: 16px;
-  /* font-family: "Avenir", Helvetica, sans-serif; */
   font-weight: 400;
 }
 
 .largeParagraph {
   font-size: 18px;
-  /* font-family: "Avenir", Helvetica, sans-serif; */
   color: #4b5d68;
 }
 
@@ -168,7 +174,6 @@ body {
 
 #promoTitle {
   font-size: 3rem;
-  /* font-family: "Avenir", Helvetica, sans-serif; */
 }
 
 #about {
@@ -255,13 +260,11 @@ body {
 
 .cardTitles {
   font-size: 24px;
-  /* font-family: "Avenir", Helvetica, sans-serif; */
   color: #212353;
 }
 
 .cardParagraph {
   font-size: 16px;
-  /* font-family: "Avenir", Helvetica, sans-serif; */
   color: #4b5d68;
 }
 
@@ -271,14 +274,12 @@ body {
 
 .cardButton {
   font-size: 16px;
-  /* font-family: "Avenir", Helvetica, sans-serif; */
   color: #212353;
 }
 
 #testimonials {
   margin: 10% auto;
   position: relative;
-  /* display: flex; */
 }
 
 #testimonialsBody {
@@ -295,14 +296,12 @@ body {
 #testimonialHeader {
   padding-top: 3rem;
   font-size: 40px;
-  /* font-family: "Avenir", Helvetica, sans-serif; */
   color: #ffffff;
   padding-right: 15rem;
 }
 
 .testimonialName {
   font-size: 18px;
-  /* font-family: "Avenir", Helvetica, sans-serif; */
   color: #212353;
 }
 
@@ -339,13 +338,11 @@ body {
 
 .testimonialTitle {
   font-size: 14px;
-  /* font-family: "Avenir", Helvetica, sans-serif; */
   color: #9c69e2;
 }
 
 .testimonlial {
   font-size: 14px;
-  /* font-family: "Avenir", Helvetica, sans-serif; */
 }
 
 .testimonialImg {
@@ -391,63 +388,3 @@ ul {
 }
 
 /* responsive break points */
-/* footer buttons need to be hidden/shrunk */
-
-@media screen and (max-width: 660px) {
-  .footerItems {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .navbar a:not(:first-child) {
-    display: none;
-  }
-  .navbar a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .navbar.responsive {
-    position: relative;
-  }
-  .navbar.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .navbar.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-@media screen and (max-width: 1275px) {
-  .footerItems {
-    width: 100%;
-  }
-}
-/* social media not in right div? */
-
-/* work on later */
-/* logo css here
-.navbar a.active {
-  background-color: #04aa6d;
-  color: white;
-} */
-/* .button {
-  box-shadow: 0px 5px 5px;
-  border-radius: 50px;
-} */
-
-/* .logo {
-  grid-area: logo;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  background-color: green;
-} */

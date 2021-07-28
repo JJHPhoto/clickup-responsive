@@ -16,6 +16,7 @@ Mini-project for ClickUp job applicaiton. I need to make a responsive version of
 - get things looking close on page
 - need to decided between flex and float?
 - figured out feature card backgrounds.
+- responsive navbar with flex
 
 ## Stack
 
