@@ -105,7 +105,7 @@ body {
 
 .mediumTitle {
   font-size: 40px;
-  /* padding-bottom: 1rem; */
+  padding: 2rem 0;
 }
 
 .footerTitle {
@@ -126,18 +126,19 @@ body {
 }
 
 #headline {
-  width: 80%;
+  flex: 1;
+  /* width: 80%; */
   /* display: flex; */
   /* flex-direction: column; */
   /* justify-content: space-between; */
 }
 
 #headline p {
-  width: 45%;
+  width: 40%;
   margin: 2rem 0;
   line-height: 1.5rem;
   font-size: 18px;
-  order: 2;
+  /* order: 2; */
   color: #4b5d68;
 }
 
@@ -145,7 +146,7 @@ body {
   width: 80%;
   font-size: 80px;
   color: #212353;
-  order: 1;
+  /* order: 1; */
 }
 
 #about {
@@ -153,16 +154,18 @@ body {
   background: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  padding: 2rem;
+  /* flex-direction: row-reverse; */
 }
 
 #subHeadline {
   /* width: 80%; */
   /* flex: 3; */
-  display: flex;
-  flex-direction: inherit;
+  /* display: flex; */
+  /* flex-direction: inherit; */
   /* margin: auto; */
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 #subHeadline p {
@@ -170,10 +173,18 @@ body {
   line-height: 1.5rem;
 }
 
-#subHeadlineImg {
-  padding: 1rem;
+#subHeadlineText {
+  /* width: 50%; */
+  /* margin-top: 2rem; */
   flex: 1;
 }
+
+#headlineImg {
+  /* padding: 1rem; */
+  flex: 1;
+}
+
+/* add a media query here for img size?  */
 
 /* #features {
   margin: 10% auto;
@@ -261,8 +272,13 @@ body {
   color: #4b5d68;
 }
 
-img {
-  /* align-content: center; */
+/* img {
+  align-content: center;
+  flex: 1;
+  padding: 1rem;
+} */
+
+#cardImg {
   flex: 1;
   padding: 1rem;
 }
