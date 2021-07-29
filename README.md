@@ -28,6 +28,6 @@ Mini-project for ClickUp job applicaiton. I need to make a responsive version of
 ## Resources
 
 [Shields.io](https://shields.io/)
-[CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+[CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 [W3 Schools](https://www.w3schools.com/)
 [Codegrepper](https://www.codegrepper.com/code-examples/css/how+to+use+avenir+font+in+css)
