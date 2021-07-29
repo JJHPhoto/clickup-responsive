@@ -1,24 +1,14 @@
-# ClickUp Responsive
+# [ClickUp Responsive](https://jjhphoto.github.io/clickup-responsive/)
 
-Mini-project for ClickUp job applicaiton. I need to make a responsive version of a webpage they sent me a Figma demo of.
+This is a mini-project that I received from ClickUp as part of their job interview process. I had a lot of fun figuring out all the CSS to get this to be responsive as requested in the brief.
 
 ## Workflow
 
-- Whiteboard & grab graphics/colors.
-- Create Repo & initial files
-- Start testing grid
-- CSS the colors of navbar as well as working on collapsable menu
-- realized i was using bootstrap classes; w3 schools for responsive navbar
-- found font family
-- responsive menu working
-- divided up grid areas
-- class vs id
-- get things looking close on page
-- need to decided between flex and float?
-- figured out feature card backgrounds.
-- responsive navbar with flex
-- going down the page, working on flexing the rest of the boxes
-- background images added. flex features boxes.
+The first thing I did after recieving the brief was to try to write up all the tasks I thought I needed to complete this project. The funny thing was I was using ClickUp to make the tasks. I then whiteboarded the prorject with a good friend who has been helpful in my web development path.
+
+I initially tried writing the app using CSS gridboxes but ended up switching to flexbox after having a number of spacing difficulties. Once I got everything on the page, I started working on making it look as close as possible for the desktop view.
+
+After that, it was a matter of trying to get each section to be responsive. This proved to be harder than I thought. I dug around on W3 Schools, CSS-Tricks, etc to find ways to get each section looking good in responsive. I really liked how well flexbox did this naturally in most areas. I then added media queries to get certain things to fit a bit better at smaller screens.
 
 ## Stack
 
@@ -28,6 +18,9 @@ Mini-project for ClickUp job applicaiton. I need to make a responsive version of
 ## Resources
 
 [Shields.io](https://shields.io/)
+
 [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 [W3 Schools](https://www.w3schools.com/)
+
 [Codegrepper](https://www.codegrepper.com/code-examples/css/how+to+use+avenir+font+in+css)
