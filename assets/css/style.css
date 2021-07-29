@@ -126,7 +126,7 @@ body {
 }
 
 #headline {
-  flex: 1;
+  /* flex: 1; */
   /* width: 80%; */
   /* display: flex; */
   /* flex-direction: column; */
@@ -156,7 +156,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 2rem;
-  /* flex-direction: row-reverse; */
 }
 
 #subHeadline {
@@ -174,21 +173,14 @@ body {
 }
 
 #subHeadlineText {
-  /* width: 50%; */
-  /* margin-top: 2rem; */
   flex: 1;
 }
 
 #headlineImg {
-  /* padding: 1rem; */
   flex: 1;
 }
 
 /* add a media query here for img size?  */
-
-/* #features {
-  margin: 10% auto;
-} */
 
 #featuresTitle {
   display: flex;
@@ -202,11 +194,9 @@ body {
 }
 
 #featuresCards {
-  /* width: 100%; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: inherit;
-  /* justify-content: space-around; */
 }
 
 #searchCard {
@@ -271,12 +261,6 @@ body {
   font-size: 16px;
   color: #4b5d68;
 }
-
-/* img {
-  align-content: center;
-  flex: 1;
-  padding: 1rem;
-} */
 
 #cardImg {
   flex: 1;
